@@ -5,120 +5,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manan Ukani - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
     <header>
-        <h1>Manan Ukani</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Manan Ukani</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Welcome! I'm Manan Ukani, a Computer Science student at Vellore Institute of Technology (VIT), Vellore. 
-            I am passionate about technology, particularly in the fields of software development and cybersecurity. 
-            With a CGPA of 8.56, I have been actively involved in various projects and leadership roles during my academic journey.
-        </p>
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome! I'm Manan Ukani, a Computer Science student at Vellore Institute of Technology (VIT), Vellore. I am passionate about technology, particularly in the fields of software development and cybersecurity. With a CGPA of 8.56, I have been actively involved in various projects and leadership roles during my academic journey.</p>
+        </div>
     </section>
 
     <section id="education">
-        <h2>Education</h2>
-        <p><strong>Vellore Institute of Technology, Vellore</strong> (Sep 2021 - Aug 2025)<br>
-        Bachelor of Technology in Computer Science - 8.56 CGPA</p>
-        <p><strong>Krishna International School, Rajkot</strong> (Jun 2019 - May 2021)<br>
-        Intermediate Education in Science - 83%</p>
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Vellore Institute of Technology, Vellore</h3>
+                <p>Bachelor of Technology in Computer Science - 8.56 CGPA<br>Sep 2021 - Aug 2025</p>
+            </div>
+            <div class="education-item">
+                <h3>Krishna International School, Rajkot</h3>
+                <p>Intermediate Education in Science - 83%<br>Jun 2019 - May 2021</p>
+            </div>
+        </div>
     </section>
 
     <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience">
-            <h3>Operations and Marketing Manager, MnG</h3>
-            <p>January 2024 – July 2024, VIT, Vellore</p>
-            <ul>
-                <li>Boosted software adoption by 40% through targeted marketing campaigns.</li>
-                <li>Improved efficiency by 20% by streamlining processes using DevOps tools.</li>
-                <li>Achieved 95% customer satisfaction through exceptional support and training.</li>
-            </ul>
-        </div>
-        <div class="experience">
-            <h3>Technical Intern, Epic Software Developers</h3>
-            <p>August 2023 – September 2023, Rajkot, Gujarat</p>
-            <ul>
-                <li>Collaborated with cross-functional teams to understand software requirements and contribute to production process improvements.</li>
-                <li>Developed and implemented an ERP System, enhancing efficiency by 30% using Java, Python, and SQL.</li>
-                <li>Resolved issues related to ERP system functionality, improving reliability and user experience.</li>
-            </ul>
-        </div>
-        <div class="experience">
-            <h3>Director Of Operations, ECELL</h3>
-            <p>July 2023 – July 2024, VIT, Vellore</p>
-            <ul>
-                <li>Directed events and business development sessions, impacting 500+ students annually.</li>
-                <li>Improved event coordination by 30% using project management tools.</li>
-                <li>Managed hardware and software project cycles, fostering innovation.</li>
-            </ul>
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Operations and Marketing Manager, MnG</h3>
+                <p>January 2024 – July 2024, VIT, Vellore</p>
+                <ul>
+                    <li>Boosted software adoption by 40% through targeted marketing campaigns.</li>
+                    <li>Improved efficiency by 20% by streamlining processes using DevOps tools.</li>
+                    <li>Achieved 95% customer satisfaction through exceptional support and training.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Technical Intern, Epic Software Developers</h3>
+                <p>August 2023 – September 2023, Rajkot, Gujarat</p>
+                <ul>
+                    <li>Collaborated with cross-functional teams to understand software requirements and contribute to production process improvements.</li>
+                    <li>Developed and implemented an ERP System, enhancing efficiency by 30% using Java, Python, and SQL.</li>
+                    <li>Resolved issues related to ERP system functionality, improving reliability and user experience.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Director Of Operations, ECELL</h3>
+                <p>July 2023 – July 2024, VIT, Vellore</p>
+                <ul>
+                    <li>Directed events and business development sessions, impacting 500+ students annually.</li>
+                    <li>Improved event coordination by 30% using project management tools.</li>
+                    <li>Managed hardware and software project cycles, fostering innovation.</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Network Intrusion Detection System</h3>
-            <p>Set up and configured Snort on a Linux system to monitor and analyze network traffic for potential threats. Created and fine-tuned Snort rules to detect specific security threats, such as unauthorized access, malware, and suspicious activities, enhancing network security.</p>
-            <a href="https://github.com/MananUkani/NIDR">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Key Logger</h3>
-            <p>Captured keystrokes, including special keys and case differentiation. Used pynput library and implemented security measures.</p>
-            <a href="https://github.com/MananUkani/Keylogger">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Market Basket Analysis</h3>
-            <p>Developed a Market Basket Analysis tool using K-Means Clustering to segment customers based on their purchasing patterns, allowing for targeted marketing strategies. Utilized the FP-Growth algorithm to mine transaction data for frequent itemsets and generate association rules, uncovering insights into product affinities and enhancing cross-selling opportunities.</p>
-            <a href="https://github.com/MananUkani/MBA">View Project</a>
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Network Intrusion Detection System</h3>
+                <p>Set up and configured Snort on a Linux system to monitor and analyze network traffic for potential threats. Created and fine-tuned Snort rules to detect specific security threats, such as unauthorized access, malware, and suspicious activities, enhancing network security.</p>
+                <a href="https://github.com/MananUkani/NIDR" class="btn">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Key Logger</h3>
+                <p>Captured keystrokes, including special keys and case differentiation. Used pynput library and implemented security measures.</p>
+                <a href="https://github.com/MananUkani/Keylogger" class="btn">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Market Basket Analysis</h3>
+                <p>Developed a Market Basket Analysis tool using K-Means Clustering to segment customers based on their purchasing patterns, allowing for targeted marketing strategies. Utilized the FP-Growth algorithm to mine transaction data for frequent itemsets and generate association rules, uncovering insights into product affinities and enhancing cross-selling opportunities.</p>
+                <a href="https://github.com/MananUkani/MBA" class="btn">View Project</a>
+            </div>
         </div>
     </section>
 
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Languages: Python, Java, C, C++, HTML/CSS, SQL</li>
-            <li>Developer Tools: GitHub, VS Code, R Programming, Microsoft 365, Azure Security, WireShark, Cisco Packet Tracer, Snort, Notion, MySQL, Figma, Adobe PS, MATLAB, Verilog, Slack</li>
-            <li>Technologies/Frameworks: Linux, GitHub, WordPress, GDPR, HIPAA</li>
-            <li>Certification Courses: SC900 Microsoft Certified: Security, Compliance, and Identity Fundamentals</li>
-            <li>Educational Courses: Data Structures and Algorithms, OS, AI, DBMS, OOPS, Information Security</li>
-            <li>Management Skills: Marketing, Collaboration, Logistics Management/Operations, Team Building</li>
-        </ul>
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Languages: Python, Java, C, C++, HTML/CSS, SQL</li>
+                <li>Developer Tools: GitHub, VS Code, R Programming, Microsoft 365, Azure Security, WireShark, Cisco Packet Tracer, Snort, Notion, MySQL, Figma, Adobe PS, MATLAB, Verilog, Slack</li>
+                <li>Technologies/Frameworks: Linux, GitHub, WordPress, GDPR, HIPAA</li>
+                <li>Certification Courses: SC900 Microsoft Certified: Security, Compliance, and Identity Fundamentals</li>
+                <li>Educational Courses: Data Structures and Algorithms, OS, AI, DBMS, OOPS, Information Security</li>
+                <li>Management Skills: Marketing, Collaboration, Logistics Management/Operations, Team Building</li>
+            </ul>
+        </div>
     </section>
 
     <section id="achievements">
-        <h2>Achievements and Leadership</h2>
-        <ul>
-            <li>Ignitia Hack Runners-up, Yantra.</li>
-            <li>Organizer of E-Summit 2023 and 2024 and various hybrid hackathons, Entrepreneurship Cell VIT.</li>
-            <li>Integral part of the projects department and development team as a Senior Core Marketing, Entrepreneurship Cell VIT.</li>
-        </ul>
+        <div class="container">
+            <h2>Achievements and Leadership</h2>
+            <ul>
+                <li>Ignitia Hack Runners-up, Yantra.</li>
+                <li>Organizer of E-Summit 2023 and 2024 and various hybrid hackathons, Entrepreneurship Cell VIT.</li>
+                <li>Integral part of the projects department and development team as a Senior Core Marketing, Entrepreneurship Cell VIT.</li>
+            </ul>
+        </div>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:mananukani007@gmail.com">mananukani007@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/MananUkani">linkedin.com/in/MananUkani</a></p>
-        <p>GitHub: <a href="https://github.com/MananUkani">github.com/MananUkani</a></p>
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:mananukani007@gmail.com">mananukani007@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/MananUkani">linkedin.com/in/MananUkani</a></p>
+            <p>GitHub: <a href="https://github.com/MananUkani">github.com/MananUkani</a></p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Manan Ukani. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Manan Ukani. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
