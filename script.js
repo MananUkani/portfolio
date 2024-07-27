@@ -1,9 +1,10 @@
-// Smooth scrolling for internal links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+function showSection(sectionId) {
+    const sections = document.querySelectorAll('main section');
+    sections.forEach(section => {
+        if (section.id === sectionId) {
+            section.classList.remove('hidden');
+        } else {
+            section.classList.add('hidden');
+        }
     });
-});
+}
